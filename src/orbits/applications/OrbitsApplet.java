@@ -9,6 +9,7 @@ import orbits.components.OrbitsAnimation;
 import orbits.components.OrbitsAnimation.LayoutType;
 import orbits.resources.R;
 
+@SuppressWarnings("removal")
 public class OrbitsApplet extends Applet {
 	private static final Logger LOGGER = MoreUtil.getLogger(OrbitsApplet.class);
 

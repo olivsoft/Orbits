@@ -151,7 +151,8 @@ public final class OrbitPlot extends BasePlot {
 			g.draw(periastronPath);
 			g.fill(orbitPathP);
 		} else {
-			g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_DEFAULT);
+			//g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_DEFAULT);
+			g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 			g.setColor(Color.cyan);
 			g.draw(orbitPathL);
 			g.setColor(Color.yellow);

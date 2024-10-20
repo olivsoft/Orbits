@@ -151,6 +151,7 @@ public class OrbitsAppSWT {
 
 	// Again, we have a suitable adapter
 	ControlListener resizeListener = ControlListener.controlResizedAdapter(e -> {
+		animationComposite.layout(true, true);
 		Rectangle clientArea = shell.getClientArea();
 		// Initialize
 		if (lastArea == null || lastArea.isEmpty())
